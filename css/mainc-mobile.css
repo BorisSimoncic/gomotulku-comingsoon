@@ -1,0 +1,559 @@
+/* ------------------------------------------------------------
+2. General Styles
+------------------------------------------------------------ */
+
+
+@media (max-width: 767px) {
+  .welcome-desktop {
+    display: none;
+  }
+  .welcome-mobile {
+    display: inline;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  h3 {
+    text-align: left;
+  }
+}
+
+/* ------------------------------------------------------------
+4. Header
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+  .social-links {
+    margin: 0px;
+  }
+}
+
+/* ------------------------------------------------------------
+5. Page Content
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+  .page-title {
+    margin-bottom: 10px;
+  }
+
+  /* --- Testimonials --- */
+  .testimonial {
+    padding: 0 15px 15px 15px;
+  }
+}
+
+/* ------------------------------------------------------------
+x.
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 768px) {
+  .portfolio-grid figure {
+    width: 50%;
+  }
+
+  .page-title h2 {
+    position: relative;
+    font-size: 27px;
+    z-index: 1;
+    line-height: 35px;
+    margin-top: 50px;
+  }
+
+  .section-content {
+    padding: 20px;
+    padding-top: 35px;
+  }
+
+  .white-space-50-30 {
+    padding-bottom: 30px;
+  }
+
+  .info-list {
+    margin-top: 20px;
+  }
+
+  .blog-post-content {
+    padding: 0;
+    margin: 30px 0 0;
+  }
+
+  .blog-masonry.two-columns .item,
+  .blog-masonry.three-columns .item {
+    width: 100%;
+  }
+
+  .portfolio-grid figure,
+  .portfolio-grid.three-columns figure {
+    width: 50%;
+  }
+
+  .portfolio-grid.four-columns figure,
+  .portfolio-grid.five-columns figure {
+    width: 33.3333333%;
+  }
+
+  .page-portfolio-loaded .portfolio-page-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .portfolio-page-carousel .owl-nav .owl-prev {
+    margin-left: 0;
+  }
+
+  .portfolio-page-carousel .owl-nav .owl-next {
+    margin-right: 0;
+  }
+
+  .portfolio-page-carousel .owl-nav .owl-prev,
+  .portfolio-page-carousel .owl-nav .owl-next {
+    background-color: rgba(255,255,255,.55);
+  }
+
+  .single-page-content .portfolio-page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .section-title-block.first-style .section-description {
+    margin: 7px 0 0;
+    width: 100%;
+  }
+
+  .portfolio-grid figure {
+    width: 100%;
+  }
+
+  .portfolio-grid.three-columns figure,
+  .portfolio-grid.two-columns figure {
+    width: 100%;
+  }
+
+  .portfolio-grid figure,
+  .portfolio-grid.two-columns figure,
+  .portfolio-grid.three-columns figure,
+  .portfolio-grid.four-columns figure,
+  .portfolio-grid.five-columns figure {
+    width: 100%;
+  }
+
+  .timeline-second-style .timeline-item {
+    position: relative;
+    display: block;
+  }
+
+  .timeline-second-style .left-part {
+    width: 100%;
+    display: block;
+    padding-left: 25px;
+    min-height: 100%;
+    text-align: left;
+  }
+
+  .timeline-second-style .divider {
+    left: 0;
+  }
+
+  .timeline-second-style .right-part {
+    width: 100%;
+    display: block;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
+  .single-page-content .post-content {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .controls.two-columns .right-column,
+  .controls.two-columns .left-column {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  .service-item {
+    flex-direction: column;
+  }
+
+  .portfolio-grid figure .name {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    position: relative;
+    background-color: #131e2f;
+    border-radius: 10px;
+  }
+
+  .ajax-page-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    position: absolute;
+    width: 100%;
+    max-width: 330px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #131e2f;
+    z-index: 99;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    overflow: auto;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+
+  .header .copyrights {
+    right: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .header .privacy {
+    margin-top: 45px;
+    right: 0;
+    width: 100%;
+    position: relative;
+    padding: 5px 10px 0px;
+    text-align: center;
+  }
+
+  .header .privacy a {
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .page {
+    padding: 0;
+  }
+
+  .page-content {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    min-height: 100%;
+  }
+
+  .content-area {
+    max-width: 100%;
+  }
+
+  .animated-section,
+  .single-page-content {
+    border-radius: 0;
+    overflow: auto !important;
+  }
+
+  .header-titles h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header-titles h4 {
+    font-size: 17px;
+  }
+
+  .header-photo {
+    max-width: 130px;
+    margin-bottom: 25px;
+  }
+
+  .mobile-menu-hide {
+    width: 0;
+    right: 0;
+    margin-right: -100%;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  ul.main-menu {
+    margin: 30px 0;
+  }
+
+  ul.main-menu a {
+    display: block;
+    color: #fff;
+    padding: 12px 0;
+    line-height: 21px;
+    opacity: .7;
+  }
+
+  ul.main-menu a.active {
+    opacity: 1;
+  }
+
+  ul.main-menu .menu-icon {
+    display: none;
+  }
+
+  ul.main-menu .link-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #131e2f;
+    right: 10px;
+    font-size: 19px;
+    top: 10px;
+    border-radius: 30px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 900;
+  }
+
+  .menu-toggle span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    left: 25%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  .menu-toggle span:nth-child(1) {
+    top: 16px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  .menu-toggle span:nth-child(2) {
+    top: 22px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  .menu-toggle span:nth-child(3) {
+    top: 28px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 13px;
+    left: 15px;
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 30px;
+    left: 15px;
+  }
+
+  .lmpixels-arrows-nav {
+    background-color: rgba(0,0,0,.6);
+    width: 48px;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 0;
+    border: 2px solid #131e2f;
+  }
+
+  .lmpixels-arrows-nav div {
+    font-size: 24px;
+  }
+
+  .single-page-content .post-content {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.mobile-menu-item-li
+{
+  margin-bottom: 10px;
+}
+
+.mobile-menu-item-a
+{
+  color: #f5f5f5;
+  font-size: 19px;
+  font-weight: 200;
+}
+
+/* =============================================================================
+10. Updates
+============================================================================= */
+
+@media only screen and (max-width: 1024px) {
+  .lm-animated-bg {
+    display: none;
+  }
+
+  .title-block h2 {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 0 10px;
+    text-align: center;
+  }
+
+  .title-block .sp-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fun-fact {
+    padding: 25px 10px 15px;
+  }
+
+  .fun-fact h4 {
+    font-size: 16px!important;
+    line-height: 25px!important;
+    margin: 5px;
+    margin-top: 10px;
+  }
+}
+
+/* =============================================================================
+11. Modal
+============================================================================= */
+
+
+@media screen and (max-width: 767px) {
+
+  .modal-content {
+    background-color: #f3f8ff;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('../img/subscribe_small.png'); /* Replace with the correct path to your image */
+    background-size: 100% ; /* This will scale the image to cover the entire element */
+    background-position-x: center; /* This will center the image within the element */
+    background-position-y: top; /* This will center the image within the element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    padding-top: 120px;
+  }
+
+  .modal-input-firstname, .modal-input-lastname, .modal-input-email {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+    flex: 100%;
+  }
+
+  .modal-input-firstname {
+    margin-top: 10px;
+  }
+
+  .modal-input-email {
+    margin-top: 0px;
+    flex: 100%;
+  }
+
+  .col-xs-12 h4 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .col-xs-12 p {
+    padding-right: 0px;
+    font-size: 14px;
+  }
+
+  .form-group-with-icon label {
+    font-size: 14px;
+  }
+
+  .subscribe-disclaimer p {
+    font-size: 10px;
+  }
+
+  .close {
+    margin-top: -110px;
+    margin-left: -10px;
+    float: left;
+  }
+
+  .modal-content-message {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 250px;
+    background-color: #f3f8ff;
+    border-radius: 10px;
+    background-image: url('../img/subscribe_top.png'); /* Replace with the correct path to your image */
+    background-size: contain ; /* This will scale the image to cover the entire element */
+    background-position-x: center; /* This will center the image within the element */
+    background-position-y: top; /* This will center the image within the element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+   padding-top: 140px;
+  }
+
+  .close-message {
+    margin-top: -133px;
+    margin-right: -12px;
+  }
+}
