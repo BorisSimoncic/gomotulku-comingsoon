@@ -486,6 +486,10 @@ x.
 
 @media screen and (max-width: 767px) {
 
+  .modalmain {
+    max-width: 100%;
+  }
+
   .modal-content {
     background-color: #f3f8ff;
     border-radius: 20px;
