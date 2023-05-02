@@ -3,7 +3,7 @@
 ------------------------------------------------------------ */
 
 
-@media (max-width: 767px) {
+@media (max-width: 717px) {
   .welcome-desktop {
     display: none;
   }
@@ -28,7 +28,7 @@
 4. Header
 ------------------------------------------------------------ */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 718px) {
   .social-links {
     margin: 0px;
   }
@@ -38,7 +38,7 @@
 5. Page Content
 ------------------------------------------------------------ */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 718px) {
   .page-title {
     margin-bottom: 10px;
   }

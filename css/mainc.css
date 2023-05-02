@@ -2824,7 +2824,7 @@ blockquote {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 718px) and (max-width: 1023px) {
   .modal-content {
     width: 80%;
     min-width: 700px;
