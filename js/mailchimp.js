@@ -50,16 +50,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeModalGetUpdates = document.getElementById('closeModalGetUpdates');
     const closeModalGetUpdatesMessage = document.getElementById('closeModalGetUpdatesMessage');
 
-    document.getElementById('get-updates-btn').addEventListener('click', function (event) {
-        event.preventDefault();
-        showModal(modalGetUpdates);
-    });
-
-    closeModalGetUpdates.onclick = function () {
-        var modalGetUpdates = document.getElementById('modalGetUpdates');
-        hideModal(modalGetUpdates);
-    }
-
     closeModalGetUpdatesMessage.onclick = function () {
         var modalGetUpdatesMessage = document.getElementById('modalGetUpdatesMessage');
         hideModal(modalGetUpdatesMessage);
@@ -81,18 +71,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function onElementPopulatedSuccess() {
 
-        hideModal(modalGetUpdates);
+        //hideModal(modalGetUpdates);
         showModal(modalGetUpdatesMessage);
-        const mailchimpResponse = document.getElementById("mailchimp-response");
-        mailchimpResponse.textContent = $('#mce-success-response').text();
+        //const mailchimpResponse = document.getElementById("mailchimp-response");
+        //mailchimpResponse.textContent = $('#mce-success-response').text();
         clearFormInputs('mc-embedded-subscribe-form');
     }
 
     function onElementPopulatedError() {
-        hideModal(modalGetUpdates);
+        //hideModal(modalGetUpdates);
         showModal(modalGetUpdatesMessage);
-        const mailchimpResponse = document.getElementById("mailchimp-response");
-        mailchimpResponse.textContent = $('#mce-error-response').text();
+        //const mailchimpResponse = document.getElementById("mailchimp-response");
+        //mailchimpResponse.textContent = $('#mce-error-response').text();
         clearFormInputs('mc-embedded-subscribe-form');
     }
 
