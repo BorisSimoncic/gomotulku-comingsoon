@@ -288,7 +288,12 @@ input[type="submit"]:focus {
   width: 52px;
   height: 52px;
   margin: 100px auto;
-  background-color: #fff;
+
+  background-image: url('../favicon-228x228.png'); /* Replace with the correct path to your image */
+  background-size: contain ; /* This will scale the image to cover the entire element */
+  background-position-x: center; /* This will center the image within the element */
+  background-position-y: center; /* This will center the image within the element */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
 
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
